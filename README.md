@@ -1,2 +1,2 @@
 Online-zoo
-https://Githubtgawlik.github.io/online-zoo/main/index.html
+https://Githubtgawlik.github.io/online-zoo/pages/main/
