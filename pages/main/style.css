@@ -39,16 +39,22 @@ header {
   color: #ffffff;
 }
 
-/* .highlight {
-  color: #f9804b;
-} */
+.highlight {
+  color: #f9804b !important;
+}
 
-a:hover {
-  color: #f9804b;
+a:link {
+  text-decoration: none;
 }
 
 a:visited {
+  text-decoration: none;
   color: #ffffff;
+}
+
+a:hover {
+  color: #f9804b;
+  text-decoration: none;
 }
 
 h1 {
@@ -142,6 +148,7 @@ h1 {
 
 .header_donate {
   position: absolute;
+  text-decoration: none;
   width: 51px;
   height: 22px;
   left: 650px;
@@ -166,6 +173,7 @@ h1 {
 
 .header_designed_by {
   position: absolute;
+  color: #ffffff;
   width: 125px;
   height: 22px;
   left: 1275px;
@@ -177,7 +185,7 @@ h1 {
 }
 
 .section_1 {
-  background-image: url(/assets/images/Giant\ Panda.png);
+  background-image: url(../../assets/images/Giant_Panda.png);
   /* position: absolute; */
   height: 780px;
   left: 0px;
