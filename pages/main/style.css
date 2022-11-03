@@ -21,7 +21,7 @@ html {
 body {
   width: 1600px;
   margin: 0px auto;
-  color: #ffee2e;
+  /* color: #ffee2e; */
   position: relative;
 }
 
@@ -45,6 +45,7 @@ header {
 
 a:link {
   text-decoration: none;
+  color: #ffffff;
 }
 
 a:visited {
@@ -215,9 +216,8 @@ h1 {
 }
 
 .btn_1:hover {
-  /* background-color: #d85218;
-  transition: 0.8s; */
-  background-color: black;
+  background-color: #d85218;
+  transition: 0.8s;
   color: white;
 }
 
@@ -487,6 +487,7 @@ h1 {
 }
 
 .elipse {
+  border-radius: 50%;
   position: absolute;
   width: 26px;
   height: 26px;
@@ -501,7 +502,6 @@ h1 {
   height: 16px;
   left: 9px;
   top: 5px;
-  background: #ffffff;
 }
 
 .tweeter {
@@ -530,7 +530,6 @@ h1 {
   height: 14px;
   left: 5px;
   top: 6px;
-  background: #ffffff;
 }
 
 .instagram {
@@ -561,7 +560,6 @@ h1 {
   height: 16px;
   left: 5px;
   top: 5px;
-  background: #ffffff;
 }
 
 .youtube {
@@ -592,7 +590,6 @@ h1 {
   height: 12.99px;
   left: 4px;
   top: 6px;
-  background: #ffffff;
 }
 
 .subscribe {

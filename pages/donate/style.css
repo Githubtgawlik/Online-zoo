@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  display: block;
+}
+
+body {
+  width: 1600px;
+  margin: 0px auto;
+  position: relative;
+}
+
+header {
+  display: block;
+  /* position: absolute; */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 1600px;
+  height: 80px;
+  left: auto;
+  background: #000000;
+  backdrop-filter: blur(2px);
+  color: #ffffff;
+}
+
+.highlight {
+  color: #f9804b !important;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #f9804b;
+  text-decoration: none;
+}
+
+h1 {
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 14px;
+}
+
+.logo_footer {
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 14px;
+}
+
+.logo_footer_rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+
+.logo_footer_bamboo {
+  box-sizing: border-box;
+  position: absolute;
+  width: 7.03px;
+  height: 20.98px;
+  left: 13.23px;
+  top: 24.64px;
+}
+
+.logo_footer_text {
+  box-sizing: border-box;
+  position: absolute;
+  width: 72.49px;
+  height: 44.91px;
+  left: 4.75px;
+  top: 3.55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  /* or 23px */
+  text-align: center;
+  color: #ffffff;
+}
+
+.header_about {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 365px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_map {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  left: 466px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_zoos {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 556px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_donate {
+  position: absolute;
+  text-decoration: none;
+  width: 51px;
+  height: 22px;
+  left: 650px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_contact_us {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 759px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_designed_by {
+  position: absolute;
+  color: #ffffff;
+  width: 125px;
+  height: 22px;
+  left: 1275px;
+  top: 29px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.section_panda {
+  display: block;
+  /* position: absolute; */
+  height: 390px;
+  left: 0px;
+  right: 0px;
+  top: 76px;
+  background-image: url(../../assets/images/panda_bg.png);
+}
+
+.section_donate {
+  display: block;
+  background-color: aquamarine;
+  /* position: absolute; */
+  height: 1482px;
+  left: 0px;
+  right: 0px;
+  top: 466px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  height: 443px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.btn_2 {
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: 220px;
+  top: 161px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+}
+
+.btn_2:hover {
+  background-color: #d85218;
+  transition: 0.8s;
+}
+
+.btn_2_text {
+  position: absolute;
+  width: 298px;
+  height: 22px;
+  left: calc(50% - 298px / 2);
+  top: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.pet_story_logo_footer {
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 220px;
+  top: 41px;
+}
+
+.footer_about {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: calc(50% - 43px / 2 - 159.5px);
+  bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.footer_map {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  left: calc(50% - 32px / 2 - 64px);
+  bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.footer_zoos {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: calc(50% - 36px / 2 + 28px);
+  bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.footer_contact_us {
+  position: absolute;
+  width: 77px;
+  height: 22px;
+  left: calc(50% - 77px / 2 + 142.5px);
+  bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.facebook {
+  position: absolute;
+  width: 111px;
+  height: 26px;
+  left: 220px;
+  bottom: 158px;
+}
+
+.fb_text {
+  position: absolute;
+  width: 73px;
+  height: 21px;
+  left: 38px;
+  top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.elipse {
+  border-radius: 50%;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 0px;
+  top: 0px;
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.fb_logo {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  left: 9px;
+  top: 5px;
+}
+
+.tweeter {
+  position: absolute;
+  width: 89px;
+  height: 26px;
+  left: 220px;
+  bottom: 122px;
+}
+
+.tw_text {
+  position: absolute;
+  width: 50px;
+  height: 22px;
+  left: 38px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.tw_logo {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  left: 5px;
+  top: 6px;
+}
+
+.instagram {
+  position: absolute;
+  width: 110px;
+  height: 26px;
+  left: 220px;
+  bottom: 86px;
+}
+
+.i_text {
+  position: absolute;
+  width: 73px;
+  height: 22px;
+  left: 38px;
+  top: 3px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.i_logo {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 5px;
+  top: 5px;
+}
+
+.youtube {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 220px;
+  bottom: 50px;
+}
+
+.yt_text {
+  position: absolute;
+  width: 63px;
+  height: 22px;
+  left: 38px;
+  top: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.yt_logo {
+  position: absolute;
+  width: 18px;
+  height: 12.99px;
+  left: 4px;
+  top: 6px;
+}
+
+.subscribe {
+  position: absolute;
+  width: 257px;
+  height: 29px;
+  right: 350px;
+  top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.designed {
+  position: absolute;
+  width: 230px;
+  height: 21px;
+  right: 228px;
+  bottom: 81px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.rsschool {
+  position: absolute;
+  width: 238px;
+  height: 21px;
+  right: 220px;
+  bottom: 50px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.email_button {
+  position: absolute;
+  width: 228px;
+  height: 42px;
+  right: 359px;
+  top: 83px;
+}
+.email_button_rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  border-color: #f9804b;
+  height: 42px;
+  width: 228px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.email_text {
+  position: absolute;
+  width: 211px;
+  height: 22px;
+  left: 10px;
+  top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #bdbdbd;
+}
+
+.submit_button {
+  position: absolute;
+  width: 129px;
+  height: 42px;
+  right: 220px;
+  top: 83px;
+}
+
+.submit_field {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f1f3f2;
+  border: 1px solid #4b9200;
+  border-radius: 5px;
+}
+
+.submit_text {
+  position: absolute;
+  left: 30.23%;
+  right: 30.23%;
+  top: 23.81%;
+  bottom: 23.81%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
+}
