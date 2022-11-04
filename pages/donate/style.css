@@ -221,7 +221,7 @@ h1 {
 
 h3 {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 33px;
   font-weight: 400;
   line-height: 130%;
   margin-left: 220px;
@@ -256,6 +256,60 @@ h3 {
   margin-left: 220px;
   margin-right: 220px;
   margin-top: 60px;
+}
+
+.section_donate_feed {
+  width: 976px;
+  height: 862px;
+  margin: 40px auto auto;
+  top: 844px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #fe9013;
+}
+
+.section_donate_feed_t1 {
+  width: 1095px;
+  height: 29px;
+  margin: 20px -119px 0px 0px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333b41;
+}
+
+.section_donate_feed_t2 {
+  display: block;
+  width: 41px;
+  height: 58px;
+  margin-left: 278px;
+  margin-top: 168px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #bdbdbd;
+}
+
+.section_donate_feed_t3 {
+  width: 159px;
+  height: 22px;
+  display: block;
+  margin-top: 8px;
+  margin-left: 215px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #333b41;
+  background-color: #bdbdbd;
 }
 
 .footer {
