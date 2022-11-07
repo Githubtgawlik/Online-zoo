@@ -9,32 +9,48 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="logo_footer">
-        <div class="logo_footer_rectangle"></div>
-        -
-        <img
-          class="logo_footer_bamboo"
-          src="../../assets/images/bamboo.png"
-          alt="bamboo image"
-        />
-        <div class="logo_footer_text">PetStory online</div>
-      </h1>
-      <div class="header_about">
-        <a href="./index.html">About</a>
-      </div>
-      <div class="header_map"><a>Map</a></div>
-      <div class="header_zoos"><a>Zoos</a></div>
-      <div class="header_donate">
-        <a href="#" target="_blank" class="highlight">Donate</a>
-      </div>
-      <div class="header_contact_us"><a>Contact us</a></div>
-      <div class="header_designed_by">
-        <a
-          href="https://ww0w.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
-          target="_blank"
-          >Designed by ©</a
-        >
-      </div>
+      <nav>
+        <div class="inside_header">
+          <a
+            href="https://githubtgawlik.github.io/Online-zoo/pages/main/"
+            target="_blank"
+          >
+            <h1 class="logo_footer">
+              <div class="logo_footer_rectangle"></div>
+              <img
+                class="logo_footer_bamboo"
+                src="../../assets/images/bamboo.png"
+                alt="bamboo image"
+              />
+              <div class="logo_footer_text">PetStory online</div>
+            </h1>
+          </a>
+          <div class="header_about">
+            <a
+              href="https://githubtgawlik.github.io/Online-zoo/pages/main/"
+              target="_blank"
+              >About</a
+            >
+          </div>
+          <div class="header_map">
+            <a href="#" target="_blank">Map</a>
+          </div>
+          <div class="header_zoos"><a href="#" target="_blank">Zoos</a></div>
+          <div class="header_donate">
+            <a href="#" target="_blank" class="highlight">Donate</a>
+          </div>
+          <div class="header_contact_us">
+            <a href="#" target="_blank">Contact us</a>
+          </div>
+          <div class="header_designed_by">
+            <a
+              href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+              target="_blank"
+              >Designed by ©</a
+            >
+          </div>
+        </div>
+      </nav>
     </header>
     <section class="section_panda"></section>
     <section class="section_donate">
@@ -59,26 +75,122 @@
             We know the animals bring you joy, and in these extraordinary times,
             we’re glad.
           </p>
-          <p class="section_donate_feed_t2">4</p>
-          <p class="section_donate_feed_t3">Panda diet for the day.</p>
+          <div class="section_flex_1">
+            <div class="section_flex_2">
+              <p class="section_donate_feed_t2">4</p>
+              <p class="section_donate_feed_t3">Panda diet for the day.</p>
+            </div>
+            <div class="section_donate_animal">
+              <img
+                class="animals-widget"
+                src="../../assets/images/animals-widget.png"
+                alt="animals-widget.png"
+              />
+            </div>
+          </div>
+          <p class="section_donate_feed_t4">Amount</p>
+          <div class="progress_bar"></div>
+          <div class="progress_bar_price">
+            <ul class="feed-range-values">
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="5000">5000</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="2000">2000</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="hudreed">1000</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="500">500</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="250">250</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="100">100</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="50">50</span>
+              </li>
+              <li class="range-value">
+                <img src="../../assets/icons/dollar_black.svg" alt="dollar" />
+                <span class="25">25</span>
+              </li>
+            </ul>
+          </div>
+          <div class="feed_amount">
+            <form>
+              <!-- <input type="number" value="5" /> -->
+              <input
+                type="number"
+                maxlength="4"
+                value="Another amount"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                class="feed_amount__input"
+                placeholder="Another amount"
+                required
+              />
+            </form>
+            <img
+              src="../../assets/icons/dollar.svg"
+              alt="dollar"
+              class="dollar"
+            />
+          </div>
+          <div>
+            <div class="note_1">
+              <input type="radio" id="monthly" name="donate" value="Monthly" />
+              <label class="note_1_input" for="monthly">Monthly</label>
+            </div>
+            <div class="note_2">
+              <input
+                type="radio"
+                id="once"
+                name="donate"
+                value="Once"
+                checked="checked"
+              />
+              <label for="once">Once</label>
+            </div>
+          </div>
+          <button id="btn" class="section_donate_btn">
+            <a href="#" target="_blank">Feed a friend now</a>
+          </button>
+          <p class="section_donate_feed_t8">
+            Share with your friends on social networks
+          </p>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <a href="#" class="btn_2"
+      <a href="#" target="_blank" class="btn_2"
         ><p class="btn_2_text">donate for volunteers</p></a
       >
-      <img
-        class="pet_story_logo_footer"
-        src="../../assets/images/logo.png"
-        alt="Pet Story Logo"
-      />
+      <a
+        href="https://githubtgawlik.github.io/Online-zoo/pages/main/"
+        target="_blank"
+      >
+        <img
+          class="pet_story_logo_footer"
+          src="../../assets/images/logo.png"
+          alt="Pet Story Logo"
+      /></a>
       <div class="footer_about">
-        <a href="./index.html">About</a>
+        <a href="./index.html" target="_blank">About</a>
       </div>
-      <div class="footer_map"><a>Map</a></div>
-      <div class="footer_zoos"><a>Zoos</a></div>
-      <div class="footer_contact_us"><a>Contact us</a></div>
+      <div class="footer_map"><a href="#" target="_blank">Map</a></div>
+      <div class="footer_zoos"><a href="#" target="_blank">Zoos</a></div>
+      <div class="footer_contact_us">
+        <a href="#" target="_blank">Contact us</a>
+      </div>
       <div class="facebook">
         <div class="fb_text"><a href="#" target="“_blank”">Facebook</a></div>
         <div class="elipse"></div>
@@ -112,11 +224,8 @@
         />
       </div>
       <div class="subscribe">Subscribe to our news</div>
-      <button class="email_button">
-        <div class="email_button_rectangle">
-          <p class="email_text">Enter your email</p>
-        </div>
-      </button>
+      <input class="email_button" type="email" placeholder="Enetr your email" />
+      <label for="sub"></label>
       <button class="submit_button">
         <div class="submit_field"></div>
         <p class="submit_text">Submit</p>
