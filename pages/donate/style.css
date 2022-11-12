@@ -689,6 +689,10 @@ label {
   background: rgba(196, 196, 196, 0.5);
 }
 
+.elipse:hover {
+  background: #f9804b;
+}
+
 .fb_logo {
   position: absolute;
   width: 8px;
