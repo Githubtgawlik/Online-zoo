@@ -477,6 +477,7 @@ ul {
   width: auto;
   height: auto;
   padding-left: 9px;
+  padding-right: 0%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -830,11 +831,12 @@ label {
 
 .email_button {
   position: absolute;
+  padding: 10px;
   width: 228px;
   height: 42px;
   left: 1013px;
   top: 83px;
-  border-color: #f9804b;
+  border: 2px solid #f9804b;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -842,15 +844,8 @@ label {
   background-color: #000000;
 }
 
-.email_button_rectangle {
-  box-sizing: border-box;
-  position: absolute;
-  border-color: #f9804b;
-  height: 42px;
-  width: 228px;
-  left: 0px;
-  top: 0px;
-  border-radius: 2px;
+.email_button:active {
+  border: 2px solid #4b9200;
 }
 
 .email_text {

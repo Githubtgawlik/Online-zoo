@@ -121,11 +121,10 @@
               <!-- <input type="number" value="5" /> -->
               <input
                 type="number"
-                maxlength="4"
                 value="Another amount"
-                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                 class="feed_amount__input"
                 placeholder="Another amount"
+                aria-controls="disabled"
                 required
               />
             </form>
@@ -214,7 +213,7 @@
         />
       </div>
       <div class="subscribe">Subscribe to our news</div>
-      <input class="email_button" type="email" placeholder="Enetr your email" />
+      <input class="email_button" type="email" placeholder="Enter your email" />
       <label for="sub"></label>
       <button class="submit_button">
         <div class="submit_field"></div>
